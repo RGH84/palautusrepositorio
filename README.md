@@ -1,3 +1,3 @@
 # Palautusrepositorio
 
-https://github.com/RGH84/ohtuvarasto
+[Linkki ohtuvarastoon](https://github.com/RGH84/ohtuvarasto)
