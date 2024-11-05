@@ -4,6 +4,7 @@ from logger import logger
 from summa import summa
 from erotus import erotus
 
+<<<<<<< HEAD
 logger("aloitetaan ohjelma")
 
 x = int(input("luku 1: "))
@@ -13,3 +14,14 @@ print(f"Lukujen {x} ja {y} erotus on {erotus(x, y)}")  # muutos bugikorjaus-bran
 
 logger("lopetetaan ohjelma")
 print("goodbye!")
+=======
+logger("aloitetaan ohjelma") # muutos mainissa
+
+x = int(input("luku 1: "))
+y = int(input("luku 2: "))
+print(f"{x} + {y} = {summa(x, y)}") # muutos mainissa
+print(f"{x} - {y} = {erotus(x, y)}") # muutos mainissa
+
+logger("lopetetaan ohjelma")
+print("goodbye!") # lisäys bugikorjaus-branchissa
+>>>>>>> main
